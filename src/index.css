@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+
+body {
+  margin: 0;
+  font-family: "PT Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
