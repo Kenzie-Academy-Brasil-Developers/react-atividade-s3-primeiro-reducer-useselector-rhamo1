@@ -1,8 +1,10 @@
+import { ADD_FRUIT } from "./actionTypes";
 const initialState = ["Banana", "Maçã", "Morango"];
+
 const fruitsReducer = (state = initialState, action) => {
   console.log(action);
   switch (action.type) {
-    case "ADD_FRUIT":
+    case ADD_FRUIT:
       const { fruit } = action;
       return [...state, fruit];
 
