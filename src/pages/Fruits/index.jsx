@@ -4,7 +4,6 @@ import "./styles.css";
 import useSound from "use-sound";
 
 import banana from "./banana.mp3";
-import massa from "./massa.mp3";
 import morango from "./morango.mp3";
 
 const FruitsPage = () => {
